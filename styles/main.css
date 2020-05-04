@@ -109,19 +109,19 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-    .card .card__rating .card__star {
+    .card .card__rating .card__stars--star {
       width: 15px;
       height: 15px;
       background: url("../images/star.svg") no-repeat center;
       margin-right: 4px; }
-      .card .card__rating .card__star:hover {
+      .card .card__rating .card__stars--star:hover {
         -webkit-transform: scale(2);
                 transform: scale(2); }
-    .card .card__rating .card__stars--1 .card__star:nth-child(-n+1),
-    .card .card__rating .card__stars--2 .card__star:nth-child(-n+2),
-    .card .card__rating .card__stars--3 .card__star:nth-child(-n+3),
-    .card .card__rating .card__stars--4 .card__star:nth-child(-n+4),
-    .card .card__rating .card__stars--5 .card__star:nth-child(-n+5) {
+    .card .card__rating .card__stars--1 .card__stars--star:nth-child(-n+1),
+    .card .card__rating .card__stars--2 .card__stars--star:nth-child(-n+2),
+    .card .card__rating .card__stars--3 .card__stars--star:nth-child(-n+3),
+    .card .card__rating .card__stars--4 .card__stars--star:nth-child(-n+4),
+    .card .card__rating .card__stars--5 .card__stars--star:nth-child(-n+5) {
       background: url("../images/star-active.svg") no-repeat center; }
     .card .card__rating .card__feedback {
       -ms-flex-item-align: end;
