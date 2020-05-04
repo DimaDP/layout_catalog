@@ -93,11 +93,11 @@
     font-size: 12px;
     line-height: 15px; }
   .card .card__code {
-    margin: 6px 0 0 14px;
+    margin: 5px 0 0 14px;
     -ms-flex-item-align: start;
         align-self: flex-start; }
   .card .card__rating {
-    margin-top: 14px;
+    margin-top: 15px;
     width: 170px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -105,23 +105,23 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .card .card__rating .card__rating--stars {
+    .card .card__rating .card__stars {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-    .card .card__rating .card__star_img {
+    .card .card__rating .card__star {
       width: 15px;
       height: 15px;
       background: url("../images/star.svg") no-repeat center;
       margin-right: 4px; }
-      .card .card__rating .card__star_img:hover {
+      .card .card__rating .card__star:hover {
         -webkit-transform: scale(2);
                 transform: scale(2); }
-    .card .card__rating .stars--1 .card__star_img:nth-child(-n+1),
-    .card .card__rating .stars--2 .card__star_img:nth-child(-n+2),
-    .card .card__rating .stars--3 .card__star_img:nth-child(-n+3),
-    .card .card__rating .stars--4 .card__star_img:nth-child(-n+4),
-    .card .card__rating .stars--5 .card__star_img:nth-child(-n+5) {
+    .card .card__rating .card__stars--1 .card__star:nth-child(-n+1),
+    .card .card__rating .card__stars--2 .card__star:nth-child(-n+2),
+    .card .card__rating .card__stars--3 .card__star:nth-child(-n+3),
+    .card .card__rating .card__stars--4 .card__star:nth-child(-n+4),
+    .card .card__rating .card__stars--5 .card__star:nth-child(-n+5) {
       background: url("../images/star-active.svg") no-repeat center; }
     .card .card__rating .card__feedback {
       -ms-flex-item-align: end;
@@ -150,7 +150,7 @@
       -ms-flex-item-align: end;
           align-self: flex-end; }
   .card .card__buy-link {
-    margin-top: 20px;
+    margin-top: 21px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 11px 0 12px;
@@ -192,7 +192,7 @@ body {
         -ms-flex-align: center;
             align-items: center; }
     body .main .product__row {
-      margin-bottom: 49px;
+      margin-bottom: 50px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
