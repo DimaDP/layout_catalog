@@ -60,7 +60,7 @@
         right: 0;
         bottom: 0; }
 
-.products__item {
+.product__tile--item {
   width: 200px;
   height: 403px;
   border: 1px solid #f3f3f3;
