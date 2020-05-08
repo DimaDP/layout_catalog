@@ -45,8 +45,8 @@
         text-transform: uppercase; }
         .main__header .container .item__link:hover {
           color: #00acdc; }
-    .main__header .container:last-child {
-      margin-right: 0; }
+      .main__header .container .item:last-child {
+        margin-right: 0; }
     .main__header .container .is-active {
       color: #00acdc;
       position: relative; }
@@ -103,29 +103,29 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .card__rating .card__stars {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-    .card__rating .card__star {
-      width: 15px;
-      height: 15px;
-      background: url("../images/star.svg") no-repeat center;
-      margin-right: 4px; }
-      .card__rating .card__star:hover {
-        -webkit-transform: scale(2);
-                transform: scale(2); }
-    .card__rating .card__stars--1 .card__star:nth-child(-n+1),
-    .card__rating .card__stars--2 .card__star:nth-child(-n+2),
-    .card__rating .card__stars--3 .card__star:nth-child(-n+3),
-    .card__rating .card__stars--4 .card__star:nth-child(-n+4),
-    .card__rating .card__stars--5 .card__star:nth-child(-n+5) {
-      background: url("../images/star-active.svg") no-repeat center; }
-    .card__rating .card__feedback {
-      -ms-flex-item-align: end;
-          align-self: flex-end;
-      text-decoration: none;
-      color: #000; }
+  .card__stars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .card__star {
+    width: 15px;
+    height: 15px;
+    background: url("../images/star.svg") no-repeat center;
+    margin-right: 4px; }
+    .card__star:hover {
+      -webkit-transform: scale(2);
+              transform: scale(2); }
+  .card__stars--1 .card__star:nth-child(-n+1),
+  .card__stars--2 .card__star:nth-child(-n+2),
+  .card__stars--3 .card__star:nth-child(-n+3),
+  .card__stars--4 .card__star:nth-child(-n+4),
+  .card__stars--5 .card__star:nth-child(-n+5) {
+    background: url("../images/star-active.svg") no-repeat center; }
+  .card__feedback {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    text-decoration: none;
+    color: #000; }
   .card__price {
     width: 170px;
     margin-top: 19px;
@@ -139,14 +139,14 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .card__price-value {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 19px; }
-    .card__price-text {
-      -ms-flex-item-align: end;
-          align-self: flex-end; }
+  .card__price-value {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px; }
+  .card__price-text {
+    -ms-flex-item-align: end;
+        align-self: flex-end; }
   .card__buy-link {
     margin-top: 21px;
     -webkit-box-sizing: border-box;
@@ -187,8 +187,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  @media screen and (max-width: 1024px) {
-    body .product__tile {
-      grid-template-columns: repeat(auto-fit, 200px); } }
+    @media screen and (max-width: 1024px) {
+      body .product__tile {
+        grid-template-columns: repeat(auto-fit, 200px); } }
 
 /*# sourceMappingURL=main.css.map */
