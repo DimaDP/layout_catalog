@@ -32,20 +32,20 @@
       list-style-type: none;
       height: 60px;
       margin-right: 20px; }
-    .main__header .container .item__link {
-      display: block;
-      line-height: 60px;
-      height: 60px;
-      font-family: roboto, helvetica, sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 12px;
-      text-decoration: none;
-      color: #000;
-      text-transform: uppercase; }
-      .main__header .container .item__link:hover {
-        color: #00acdc; }
-    .main__header .container .item:last-child {
+      .main__header .container .item__link {
+        display: block;
+        line-height: 60px;
+        height: 60px;
+        font-family: roboto, helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase; }
+        .main__header .container .item__link:hover {
+          color: #00acdc; }
+    .main__header .container:last-child {
       margin-right: 0; }
     .main__header .container .is-active {
       color: #00acdc;
